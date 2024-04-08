@@ -19,7 +19,7 @@ from gnosis.eth.clients import (
     SourcifyClientConfigurationProblem,
 )
 
-from safe_transaction_service.contracts.abis import butter_router_v2_metadata, butter_router_v2
+from ..abis import butter_router_v2_metadata, butter_router_v2
 
 logger = logging.getLogger(__name__)
 
